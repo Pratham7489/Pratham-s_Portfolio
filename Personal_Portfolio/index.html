@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="SaBU-cnUiT7nhRO045798yju-_N12EH_o_I5gyrle3Y" />
+    <title>Pratahm's Portfolio</title>
+    <link rel ="stylesheet" href ="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/998223a280.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+     <div class="container">
+        <nav>
+            <img src="images/pratham-logo.png"  class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fas fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Devloper / Designer</p>
+            <h1>Hi, I'm <span>Pratham</span> Patel<br>from Narmadapuram,<br>Madhya Pradesh in India</h1>
+        </div>
+    </div>
+   </div>
+<!-- ---------------about---------------------- -->
+  <section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user-image.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <div id="format">
+                    <p>Hi, I'm Pratham Patel, a Computer Science graduate from NRI Institute of Information Science and Technology. I have a strong interest in software development and web technologies, with hands-on experience in Java, Python, HTML, CSS, JavaScript, and Data Structures.<p>
+
+                    <p>I'm a quick learner and highly motivated to grow in the tech industry. I enjoy solving problems, building projects, and continuously improving my skills. As a fresher, I'm actively seeking opportunities to apply my knowledge in real-world scenarios and contribute to meaningful work.</p>
+
+                    <p>Apart from coding, I enjoy listening to music and playing sports like cricket, badminton, and chess — activities that keep me sharp, focused, and balanced.</p>
+
+                    <p>I'm excited about beginning my professional journey and open to internship or entry-level roles where I can learn, grow, and make a difference.</p>
+                </div>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills',event)">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience',event)">Experience</p>
+                    <p class="tab-links" onclick="opentab('education',event)">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Frontend Technologies</span><br><p>HTML , CSS </p></li>
+                        <li><span>Programming Languages</span><br><p>JAVA , JAVASCRIPT , PYTHON</p></li>
+                        <li><span>Fundamental Concepts</span><br><p>(DSA) Data Structures and Algorithms , (OOP) Object-Oriented Programming</p></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Web Development</span><br><p>My Portfolio</p></li>
+                        <li><span>Academic Project</span><br><p><a href="https://facio-face-detection-recognition-system.vercel.app/">Face And Image Recognition Website</a></p></li>
+                        <li><span>Self Initiated Project</span><br>
+                            <p><a href="https://oxgamee.netlify.app/">Tic Tac Toe Game</a></p>
+                            <p><a href="https://tempratureconverter1.netlify.app/" target="_blank">Temprature Converter</a></p>
+                            <p><a href="https://tempratureconverter1.netlify.app/" target="_blank">Amazon.com Clone</a></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2025</span><br><p>B.TECH - 6.70 CGPA (Computer Science)</p><p>NRI Institute Of Information Science And Technology, R.G.P.V, Bhopal (M.P.)</p></li>
+                        <li><span>2020 - 2021</span><br><p>12TH - 93%</p><p>Tagore Model Higher Secondary School, Narmadapuram (M.P.)</p></li>
+                        <li><span>2018 - 2019</span><br><p>10TH -- 92%</p><p>Tagore Model Higher Secondary School, Narmadapuram (M.P.)</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+   <!-- ----------------Services------------------------ -->
+    <section id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design & Development</h2>
+                    <p>I create clean, modern, and responsive websites using HTML, CSS, and JavaScript. Whether it’s a personal blog, a portfolio, or a small business site, I ensure a visually appealing and fully functional online presence that works smoothly across all devices.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Design isn’t just how it looks — it’s how it works. I craft intuitive, user-friendly interfaces that provide a seamless user experience. From wireframes to prototypes, I focus on usability, accessibility, and aesthetics to bring your ideas to life.</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Front-End Development</h2>
+                    <p>With a solid foundation in front-end technologies, I build interactive and responsive web interfaces. I pay attention to detail, performance, and layout, ensuring your website not only looks great but performs smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- ----------------Portfolio------------------------ -->
+    <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Tic Tac Toe Game</h3>
+                        <p>A gaming Website where people play, enjoy and have fun</p>
+                        <a href="https://oxgamee.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                 <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Amazon.com Clone</h3>
+                        <p>This is a clone of Amazon.com's Frontend </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Temprature Converter</h3>
+                        <p>This is a temprature converter Website in which we can convert the *Fahrenheit to *celsius & *Kalvin to *celsius</p>
+                        <a href="https://tempratureconverter1.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+
+        </div>
+    </section>
+ <!-- ----------------Contact----------------------- -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> ppratham134patel@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7489496008</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100046289925891&mibextid=rS40aB7S9Ucbxw6v" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/PatelPrath12728" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/__pratham_patel?utm_source=qr&igsh=MWdhdGhoOHpxZmcxdg==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/pratham-patel-4a755625a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Pratham_Resume_.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required >
+                        <input type="email" name="Email" placeholder="your Email" required >
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Pratham. Made with love <i class="fa-solid fa-heart"></i> by Pratham</p>
+        </div> 
+    </section>
+
+    <!-- ----------------Scroll-top button----------------------- -->
+     
+    <button id="scrollToTopBtn" title="Scroll to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
